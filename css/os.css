@@ -1,0 +1,86 @@
+#descricao{
+	height: 200;
+	width: 200;
+}
+
+#log{
+	height: 450;
+	text-align: center;
+	background-color: #00FFE7;
+	padding-top: 200;
+}
+
+#loginadm{
+	
+	text-align: center;
+}
+body {
+
+}
+#tableadm{
+	background-color: #0f0;
+	width: 700px;
+}
+
+#tablecliente{
+	background-color: #0f0;
+	width: 700px;
+}
+a.sair{
+	float: right;
+}
+nav{
+	background-color: #00f;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #fff;
+	width: 700px;
+}
+nav ul{
+	margin: 0 auto;
+	padding: 0px;
+	width: 500px;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+}
+
+nav ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+	font-weight: bold;
+	transition: background-color 1s;
+}
+
+nav ul li a.fun{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 0 60px;
+	font-weight: bold;
+	transition: background-color 1s;
+}
+nav ul li a:hover, a.active{
+	background-color: #fff;
+	color: #000;
+}
+p.versoli{
+	font-size: 30px;
+}
+#btn {
+	margin-right: 1%;
+	background-color: #DEC7C7;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+}
+#btn a{
+	color: #000;
+}
