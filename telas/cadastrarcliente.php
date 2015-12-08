@@ -69,16 +69,41 @@ die();
  <head>
  <meta charset='UTF-8'>
  <title>Nome da empresa</title>
- <link rel='stylesheet' href='../css/os.css' />
+ <link rel="stylesheet" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" href="../css/bootstrap-theme.css"/>
+  <script src="../js/bootstrap.js"></script>
  </head>
  <body>
 <form method="post" action="">
-Nome: <input type="text" name="nome" id="nome"><br>
-Telefone: <input type="text" name="telefone" id="telefone"><br>
-Cpf: <input type="text" name="cpf" id="cpf"><br>
-Email: <input type="text" name="email" id="email"><br>
-Endereço: <input type="text" name="endereco" id="endereco"/><br>
-<input type="submit" value="Salvar" id="salvar" name="salvar"/>
+<div class="table-responsive" align="center">
+   <form method="post" action="">
+    <h2>Cadastrar Cliente</h2>
+    <div class="input-group">
+      <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Telefone:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Telefone" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">CPF:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="CPF" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Email:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Email" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Endereço:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Endereço" aria-describedby="basic-addon1">
+    </div>
+<input style="margin-top:5px;" type="submit"value="Salvar" id="salvar" name="salvar" class="btn btn-primary">
 </form>
  </body>
 </html>

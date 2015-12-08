@@ -52,7 +52,7 @@
       }      
 
       public function buscarcliente($id){
-         $cl = new Cliente();
+        
          $conexao = mysqli_connect("localhost", "root", "", "bancoos") or die(mysql_error());
          $id = mysqli_real_escape_string($conexao, $id);
          $sql = "select id_cliente, nome, telefone, cpf, email, endereco from cliente where id_cliente = $id";

@@ -6,7 +6,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Nome da empresa</title>
-  <link rel="stylesheet" href="../css/os.css" />
+ <link rel="stylesheet" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" href="../css/bootstrap-theme.css"/>
+  <script src="../js/bootstrap.js"></script>
 </head>
 <body>
 
@@ -32,20 +34,46 @@
     if($Bdsoli->insert($Solis)){
         echo "inserido com sucesso!";
     }
-
   endif;  
-
 ?>
-  
     <form method="POST" action="">
-      <p>Solicite uma visita aqui, é só preencher os dados e enviar que entraremos em contado com você</p>
-      Nome: <input type="text" name="nome" id="nome"><br>
-      Telefone: <input type="text" name="telefone" id="telefone"><br>
-      Endereço: <input type="text" name="endereco" id="endereco"><br>
-      Email: <input type="text" name="email" id="email"><br>
-      <p>Adicione o problema do seu aparelho aqui abaixo</p>
-      <textarea type="text" name="descricao" id="descricao"> </textarea><br>
-      <input type="submit"value="Enviar" id="logar" name="cadastrar"><br>
+      <div class="table-responsive" align="center">
+      <h1>Solicite aqui um visita, é só preencher os dados que entremos em contato com você.</h1>
+      <div class="input-group">
+      <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Telefone:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Telefone" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Endereço:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Endereço" aria-describedby="basic-addon1">
+    </div>
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Email:</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Email" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group">
+      <div class="form-group">
+      <label for="nome">Descreva o problema do seu equipamento:</label><br>
+      <textarea type="text" name="descricao" id="descricao" cols="60" rows="8"> </textarea><br>
+    </div>
+      <input style="margin-top:5px;" type="submit"value="Enviar" id="logar" name="cadastrar" class="btn btn-primary">
     </form>
 </body>
 </html>
+<style type="text/css">
+body{
+    background-image:url("../imagens/Fundo.png");
+    background-repeat: no-repeat;
+    background-color:#5f5f5f;
+    background-size: 100% 100%;
+  }
+  
